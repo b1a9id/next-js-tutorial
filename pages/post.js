@@ -7,13 +7,13 @@ export default withRouter((props) => (
 		<h1>{props.router.query.title}</h1>
 		<div className="markdown">
 			<Markdown source={`
-			This is our blog post.
-			Yes. We can have a [link](/link).
-			And We can have a title as well.
+This is our blog post.
+Yes. We can have a [link](/link).
+And We can have a title as well.
 
-			### This is a title
+### This is a title
 
-			And here's the content.
+And here's the content.
 			`} />
 		</div>
 		<style jsx global>{`
